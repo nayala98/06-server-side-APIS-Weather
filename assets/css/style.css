@@ -2,3 +2,12 @@ ion-icon {
     color:whitesmoke;
     --ionicon-stroke-width: 80px;
 } 
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+} 
