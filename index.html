@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
     <title>Weather Dashboard</title>
     </head>
     <body>
@@ -24,17 +25,14 @@
     <div class="col-3 m-2 bg-light">
         <h3>Search for a City:</h3> 
         <div class="input-group mb-2">
-            <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" id="city-input" aria-describedby="basic-addon2">
         <div class="input-group-append">
             <button class="btn btn-outline-secondary bg-primary" type="button"><ion-icon name="search-outline"></ion-icon> </button>
         </div>
         </div>
         <!-- History of Cities -->
         <div class="card" style="width: 15rem;">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item"></li>
-            <li class="list-group-item"></li>
-            <li class="list-group-item"></li>
+        <ul id="city-list" class="list-group list-group-flush">
         </ul>
         </div>
     </div>
@@ -45,10 +43,6 @@
         <div class="card">
         <div class="card-body">
             <h3>City:</h3>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
         </div>
         </div>
     </div>
@@ -62,38 +56,18 @@
         <div class="row">
         <!-- Blue box 1 -->
         <div class="col-2 m-2 bg-primary">
-        <h4>Austin</h4>
-        <img>
-        <p>A</p>
-        <p>B</p>
         </div>
         <!-- Blue box 2 -->
         <div class="col-2 m-2 bg-primary">
-        <h4>Austin</h4>
-        <img>
-        <p>A</p>
-        <p>B</p>
         </div>
         <!-- Blue box 3-->
         <div class="col-2 m-2 bg-primary">
-        <h4>Austin</h4>
-        <img>
-        <p>A</p>
-        <p>B</p>
         </div>
         <!-- Blue box 4 -->
         <div class="col-2 m-2 bg-primary">
-        <h4>Austin</h4>
-        <img>
-        <p>A</p>
-        <p>B</p>
         </div>
         <!-- Blue box 5 -->
         <div class="col-2 m-2 bg-primary">
-        <h4>Austin</h4>
-        <img>
-        <p>A</p>
-        <p>B</p>
         </div>
         </div>
     </div>
@@ -103,6 +77,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="./assets/js/script.js"></script>
     </body>
 </html> 
