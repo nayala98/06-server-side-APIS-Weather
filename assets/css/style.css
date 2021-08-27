@@ -1,34 +1,77 @@
-/* STYLES FOR UL */
-ul {
-    list-style: none;
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, lightskyblue, mediumblue, navy);
+    color: white;
 }
 
-/* STYLES FOR LI */
-li {
-    border-bottom: 1px solid lightblue;
-    text-align: left;
-    padding-left: 10px;
+.btn {
+    
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 5%;
+    width: 100%;
 }
 
-/* card title style */
-.card-title {
+#current-day {
+    border: 1px solid black;
+}
+
+.favorable-uvi {
+    background-color: seagreen;
+    color: white;
+}
+
+.moderate-uvi {
+    background-color: orange;
+    color: white;
+}
+
+.severe-uvi {
+    background-color: red;
+    color: white;
+}
+
+.day-card {
+    margin-right: 1%;
+    background-color: #33475a;
+    color: white;
+    height: 12rem;
+}
+
+.current-day-div {
+    display: flex;
+}
+
+.current-day {
+    padding-top: 1%;
+}
+
+.uv-div {
+    display: flex;
+}
+
+.uv {
+    padding-right: 1%;
+}
+
+.date {
     font-size: 20px;
 }
 
-/* styles for img size */
-
-img {
-    width: 100px;
-    height: 100px;
-
+.card-div {
+    padding-top: 5%;
 }
-/* styles for five day forecast colors */
 
-.fiveDayColor {
-    padding: 20px;
-    background-color: #556e9f    ;
-    color: white;
-    float: left;
-    margin: 10px;
-    border: 1px solid #d9bd3c;
+.history-list-div {
+    border-top: 5px solid #b7b7b7;
+    margin-top: 5%;
+}
+
+.history-list-li {
+    margin-top: 2%;
+    background-color: #b7b7b7;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1%;
 }
