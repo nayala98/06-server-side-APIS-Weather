@@ -1,8 +1,7 @@
 # 06-server-side-APIS-Weather
 
 ## Description
-The application is a weather dashboard runs in the browser and features dynamically updated HTML and CSS. It utilizes Third-party APIs from 
-https://openweathermap.org/api/one-call-api to access current and forecasted weather information. 
+The application is a weather dashboard runs in the browser and features dynamically updated HTML and CSS. It utilizes Third-party APIs to access current and forecasted weather information. 
 
 ## User Story
 ```
@@ -26,7 +25,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 ## Deployed link
+[Deployment](https://nayala98.github.io/06-server-side-APIS-Weather/)
 
-
-
-
+## Screenshot
+![screenshot](weather-dashboard.png)
