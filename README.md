@@ -26,9 +26,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 ## Deployed link
-https://nayala98.github.io/06-server-side-APIS-Weather/
 
-## Screenshot
-![weather dashboard demo](./assets/weather-dashboard.PNG)
+
 
 
